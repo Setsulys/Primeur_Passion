@@ -1,0 +1,84 @@
+
+body{
+    	background-color:#D4E6F1;
+      	background-image:url("img/background/paysage.png");
+      	background-repeat: no-repeat center center fixed;
+      	-webkit-background-size: cover;
+      	-moz-background-size: cover;
+      	-o-background-size: cover;
+      	background-size: cover;
+}
+
+/*---------------------------------------------Blocks -----------------------------------------*/
+form{	border-radius: 10px;
+		background-color: gray;
+		width: 33% ;
+		margin-right: 33%;
+		margin-left: 33%;
+}
+
+h1{
+    text-align:center;
+		text-decoration: underline overline #FF3028;
+		border-radius: 	10px;
+		background-color: gray;
+		width: 33%;
+		margin-left: 33%;
+		margin-right: 33%;
+}
+
+h2{		text-align:center;
+		text-decoration: underline overline #FF3028;
+		border-radius: 	10px;
+		background-color: gray;
+		width: 33%;
+		margin-left: 33%;
+		margin-right: 33%;
+}
+
+table{ 	background-color: gray;
+		border-radius: 10px;
+		width: 33%;
+		margin-left: 33%;
+		margin-right: 33%;
+}
+
+td{		padding: 25px;
+}
+
+th{ 	padding: 10px;
+}
+
+tr:nth-child(even){	background-color: #ff8c1a
+}
+
+menu{
+  text-align: center;
+  background-color: gray;
+}
+
+
+
+/*--------------------------------------------fromulaires--------------------------------------------*/
+
+input[type=text]{		border-radius: 5px;
+						-webkit-appearance: none;
+}
+
+input[type=password]{	border-radius: 5px;
+						-webkit-appearance: none;
+}
+input[type=submit]{		border-radius: 15px;
+						-webkit-appearance: none;
+}
+input[type=reset]{		border-radius: 15px;
+						-webkit-appearance: none;
+}
+
+input[type=submit]:hover{opacity: 0.8;
+						background-color: lightgreen;
+}
+
+input[type=reset]:hover{opacity: 0.8;
+						background-color:#ff8080 ;
+}

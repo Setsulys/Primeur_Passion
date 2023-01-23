@@ -1,0 +1,56 @@
+  .logoSite{ width: 75px; height: 100px;}
+  .colonne1{float:left;widows: auto;; margin-right: 20px;margin-left: 75px;border-radius: 10px; background-color: lightgreen;}
+  .colonne5{float:left;widows: auto;; margin-right: 20px;margin-left: 75px;border-radius: 10px; background-color: lightgreen;}
+  .centerimg{width: 400px; height: auto;border-radius: 10px;}
+  .centerimg2{width: 270px; height: auto;border-radius: 10px;}
+  .colonnefull{width:100%;float:left;widows: auto;border-radius: 10px; background-color: lightgreen;}
+  .types{background-color: green; border-radius: 10px;}
+  .homebutton{background-color:red; font-size: 20px}
+
+  #bandeau{height:120px;border-radius: 10px; background-color: lightgreen; font-size:40px; }
+  #menu{width : 20%; float:right;text-align:center; background-color: #D5D8DC;border-radius: 10px}
+  #contenu{width:80%;float:left;opacity:0.85}
+  #bandeaupres{height:100%;border-radius: 10px; background-color: lightgreen; font-size:40px; width:99% }
+
+  h1{font-family: Comic Sans MS; color:#ff8c1a;}
+  h2{text-decoration: underline overline #FF3028;}
+  h4{color:black; text-align:center; }
+  h5{background-color:gray ; text-align:right};
+  h6{opacity: 0.0;}
+  body{
+      background-color:#D4E6F1;
+      background-image:url("img/background/paysage.png");
+      background-repeat: no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+  input[type=text]{border-radius: 5px; -webkit-appearance: none;}
+  input[type=password]{border-radius: 5px; -webkit-appearance: none;}
+  input[type=submit]{border-radius: 15px; -webkit-appearance: none; }
+  input[type=reset]{border-radius: 15px; -webkit-appearance: none;}
+
+  input[type=submit]:hover{opacity: 0.8;background-color: lightgreen; }
+  input[type=reset]:hover{opacity: 0.8;background-color:#ff8080 ;}
+
+
+  .fruits{ width: 100px; height: auto;}
+
+  .legumes{ width: 100px; height: auto;}
+  a:hover {opacity:0.7}
+  .commande{
+      text-align:center;
+      background-color:#D4E6F1;
+      background-image:url("../img/background/paysage.png");
+      background-repeat: no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+
+  td { padding: 25px; }
+  th { padding: 10px;}
+  tr:nth-child(even) { background-color: #ff8c1a }
